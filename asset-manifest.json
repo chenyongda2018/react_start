@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chenyongda2018/react_start/static/css/main.28782dcd.css",
+    "main.js": "/chenyongda2018/react_start/static/js/main.bfb3503c.js",
+    "index.html": "/chenyongda2018/react_start/index.html",
+    "main.28782dcd.css.map": "/chenyongda2018/react_start/static/css/main.28782dcd.css.map",
+    "main.bfb3503c.js.map": "/chenyongda2018/react_start/static/js/main.bfb3503c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28782dcd.css",
+    "static/js/main.bfb3503c.js"
+  ]
+}
