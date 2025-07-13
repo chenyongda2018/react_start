@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/chenyongda2018/react_start/static/css/main.28782dcd.css",
-    "main.js": "/chenyongda2018/react_start/static/js/main.bfb3503c.js",
-    "index.html": "/chenyongda2018/react_start/index.html",
-    "main.28782dcd.css.map": "/chenyongda2018/react_start/static/css/main.28782dcd.css.map",
-    "main.bfb3503c.js.map": "/chenyongda2018/react_start/static/js/main.bfb3503c.js.map"
+    "main.css": "/react_start/static/css/main.28782dcd.css",
+    "main.js": "/react_start/static/js/main.bfb3503c.js",
+    "index.html": "/react_start/index.html",
+    "main.28782dcd.css.map": "/react_start/static/css/main.28782dcd.css.map",
+    "main.bfb3503c.js.map": "/react_start/static/js/main.bfb3503c.js.map"
   },
   "entrypoints": [
     "static/css/main.28782dcd.css",
