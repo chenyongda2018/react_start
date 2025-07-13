@@ -1,0 +1,38 @@
+name: Build & Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]          # 监听 main 分支（如用 master 请改）
+
+permissions:
+  contents: write            # 给 Actions 写权限
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 拉代码
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. 装 Node
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      # 3. 装依赖 + 打包
+      - name: Install & Build
+        run: |
+          npm ci
+          npm run build
+
+      # 4. 推送到 gh-pages 分支
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages     # 部署分支
+          folder: build        # 打包产物目录
+          clean: true          # 每次清空旧文件
