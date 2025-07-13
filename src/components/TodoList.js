@@ -11,7 +11,7 @@ const TodoList = ({ todos, onToggleTodo, onDeleteTodo, onToggleImportant, onEdit
             <path d="M32 36c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z" stroke="#e1e1e1" strokeWidth="2" fill="none"/>
           </svg>
         </div>
-        <h3 className="empty-title">暂无任务</h3>
+        <h3 className="empty-title">还没有任务哦</h3>
         <p className="empty-description">添加一个任务开始你的待办清单之旅</p>
       </div>
     );
